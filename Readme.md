@@ -1,11 +1,10 @@
 Screenshots:
 Admin Dashboard: 
 
-./screenshot/Admin_Dashboard.png
-
+![Admin Dashboard](screenshot/Admin_Dashboard.png)
 User Dashboard:
 
-./screenshot/User_Dashboard.png
+![User Dashboard](screenshot/User_Dashboard.png)
 
 # 🏦 Vulnerable Tax Management System (CTF Lab)
 
@@ -53,9 +52,7 @@ This software contains intentional security vulnerabilities. DO NOT run this on 
     *Tools:* `sqlmap` can be used to dump the entire database tables and credentials.
 
 sqlmap:
-./screenshot/sqlmap.png
-
-./screenshot/sqlmap_2.png
+![SqlMap Tool](screenshot/sqlmap_2.png)
 
 ### 2. Privilege Escalation (Insecure Cookies)
 * **Location:** `index.php`
