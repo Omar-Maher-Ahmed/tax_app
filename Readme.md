@@ -1,4 +1,10 @@
 Screenshots:
+
+sqlmap:
+![SqlMap Tool](screenshot/sqlmap.png)
+
+![SqlMap Tool](screenshot/sqlmap_2.png)
+
 Admin Dashboard: 
 
 ![Admin Dashboard](screenshot/Admin_Dashboard.png)
@@ -50,9 +56,6 @@ This software contains intentional security vulnerabilities. DO NOT run this on 
     ' OR '1'='1
     ```
     *Tools:* `sqlmap` can be used to dump the entire database tables and credentials.
-
-sqlmap:
-![SqlMap Tool](screenshot/sqlmap_2.png)
 
 ### 2. Privilege Escalation (Insecure Cookies)
 * **Location:** `index.php`
