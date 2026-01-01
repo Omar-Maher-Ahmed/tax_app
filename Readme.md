@@ -5,6 +5,12 @@ Screenshots:
 
 ![SqlMap Tool](screenshot/sqlmap_2.png)
 
+
+**Burp Suite**
+![Burp Suite Tool](screenshot/burp_suite.png)
+
+![Burp Suite Tool](screenshot/Burp_Suite_2.png)
+
 **Admin Dashboard** 
 
 ![Admin Dashboard](screenshot/Admin_Dashboard.png)
@@ -12,10 +18,6 @@ Screenshots:
 
 ![User Dashboard](screenshot/User_Dashboard.png)
 
-**Burp Suite**
-![Burp Suite Tool](screenshot/burp_suite.png)
-
-![Burp Suite Tool](screenshot/Burp_Suite_2.png)
 
 # 🏦 Vulnerable Tax Management System (CTF Lab)
 
