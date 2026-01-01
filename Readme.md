@@ -1,3 +1,12 @@
+Screenshots:
+Admin Dashboard: 
+
+./screenshot/Admin_Dashboard.png
+
+User Dashboard:
+
+./screenshot/User_Dashboard.png
+
 # 🏦 Vulnerable Tax Management System (CTF Lab)
 
 ![Security Status](https://img.shields.io/badge/Security-Vulnerable-red)
@@ -43,6 +52,11 @@ This software contains intentional security vulnerabilities. DO NOT run this on 
     ```
     *Tools:* `sqlmap` can be used to dump the entire database tables and credentials.
 
+sqlmap:
+./screenshot/sqlmap.png
+
+./screenshot/sqlmap_2.png
+
 ### 2. Privilege Escalation (Insecure Cookies)
 * **Location:** `index.php`
 * **Vulnerability:** The application relies on an unencrypted client-side cookie (`role`) to determine user privileges.
@@ -51,6 +65,10 @@ This software contains intentional security vulnerabilities. DO NOT run this on 
     2. Intercept the request using **Burp Suite** or edit cookies via Browser DevTools.
     3. Change `Cookie: role=user` to `Cookie: role=admin`.
     4. Gain full access to the Admin C2 Panel.
+
+**Burp Suite**
+./screenshot/burp_suite.png
+
 
 ### 3. Broken Access Control
 * **Location:** Admin Actions (POST Requests).
