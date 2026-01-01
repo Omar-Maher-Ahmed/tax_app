@@ -1,16 +1,21 @@
 Screenshots:
 
-sqlmap:
+**sqlmap**
 ![SqlMap Tool](screenshot/sqlmap.png)
 
 ![SqlMap Tool](screenshot/sqlmap_2.png)
 
-Admin Dashboard: 
+**Admin Dashboard** 
 
 ![Admin Dashboard](screenshot/Admin_Dashboard.png)
-User Dashboard:
+**User Dashboard**
 
 ![User Dashboard](screenshot/User_Dashboard.png)
+
+**Burp Suite**
+![Burp Suite Tool](screenshot/burp_suite.png)
+
+![Burp Suite Tool](screenshot/Burp_Suite_2.png)
 
 # 🏦 Vulnerable Tax Management System (CTF Lab)
 
@@ -65,10 +70,6 @@ This software contains intentional security vulnerabilities. DO NOT run this on 
     2. Intercept the request using **Burp Suite** or edit cookies via Browser DevTools.
     3. Change `Cookie: role=user` to `Cookie: role=admin`.
     4. Gain full access to the Admin C2 Panel.
-
-**Burp Suite**
-./screenshot/burp_suite.png
-
 
 ### 3. Broken Access Control
 * **Location:** Admin Actions (POST Requests).
